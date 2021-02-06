@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Resume</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <style>
+        .nes-btn {
+            line-height: 1;
+            font-size: 16px;
+        }
+        @media screen  and (max-width: 650px) {
+            #pdf {
+                display: none;
+            }
+        }
+        
+    </style>
+
+</head>
+<body>
+    <nav style='padding: 20px; border-bottom: 3px solid #CCC; margin-bottom: 60px;'>
+        <div class="container">
+            <h2 style="margin-bottom: 0;">
+                <i class="nes-icon coin"></i>
+                Miguel Tirado
+                <a class="nes-btn is-success" href="../index.html">Homepage</a>
+                <a class="nes-btn is-success" href="hobbies.html">Hob/Interest</a>
+                <a class="nes-btn is-success" href="coursework.html">Coursework</a>
+                <a class="nes-btn is-success" href="projects.html">Projects</a>
+            </h2>  
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="nes-container">
+                <p>
+                    Here is a copy of my most recent resume that is either displayed 
+                    or can be  downloaded <a href="../pdf/Migueltirado.pdf" target="_blank">here</a>.
+                </p>
+                <embed id="pdf" src="../pdf/Migueltirado.pdf" width="100%" height="700px" style="border: 4px solid #40413c;"
+                type="application/pdf">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
